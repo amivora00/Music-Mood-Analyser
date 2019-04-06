@@ -4,8 +4,9 @@ from musixmatch.api import Musix, Track;
 from ibm.tone import ToneAnalyzer;
 import pandas as pd
 from argparse import ArgumentParser
+import emoji
 
-FILE_NAME = "";
+FILE_NAME = "watson.csv";
 
 app = Flask(__name__)
 

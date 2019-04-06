@@ -32,5 +32,6 @@ class Pipeline(object) :
         y = model.predict(x)[0];
 
         # Return the respected Class name.
-        return "Happy :)" if y == 1 else "Sad :("
+        return "Happy 😃" if y == 1 else "Sad 😔"
+        # return "Happy :)" if y == 1 else "Sad :("
         #emojis give unicode error 😎 😞
